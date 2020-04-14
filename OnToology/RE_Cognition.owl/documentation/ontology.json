@@ -556,7 +556,7 @@
   "@id" : "http://purl.org/recognition/Cim#manages",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Relation between a Virutal Node and the  devices it manages"
+    "@value" : "Relation between a bulding and the  devices it manages"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "manages"
@@ -771,9 +771,6 @@
 }, {
   "@id" : "https://w3id.org/saref#FeatureOfInterest",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/saref#"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Feature Of Interest"
   } ]

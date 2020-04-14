@@ -135,7 +135,7 @@
 
 ###  http://purl.org/recognition/Cim#manages
 :manages rdf:type owl:ObjectProperty ;
-         rdfs:comment "Relation between a Virutal Node and the  devices it manages" ;
+         rdfs:comment "Relation between a bulding and the  devices it manages" ;
          rdfs:label "manages" .
 
 
@@ -502,7 +502,6 @@ SAREF4BLDG ontology, an extension of the SAREF ontology that was created based o
 
 ###  https://w3id.org/saref#FeatureOfInterest
 <https://w3id.org/saref#FeatureOfInterest> rdf:type owl:Class ;
-                                           rdfs:isDefinedBy "https://w3id.org/def/saref#" ;
                                            rdfs:label "Feature Of Interest" .
 
 

@@ -115,7 +115,7 @@
 # 
 # http://purl.org/recognition/Cim#manages
 <http://purl.org/recognition/Cim#manages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/recognition/Cim#manages> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Virutal Node and the  devices it manages" .
+<http://purl.org/recognition/Cim#manages> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a bulding and the  devices it manages" .
 <http://purl.org/recognition/Cim#manages> <http://www.w3.org/2000/01/rdf-schema#label> "manages" .
 # 
 # http://purl.org/recognition/Cim#owns
@@ -436,7 +436,6 @@ _:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/saref#
 # 
 # https://w3id.org/saref#FeatureOfInterest
 <https://w3id.org/saref#FeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/saref#FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/def/saref#" .
 <https://w3id.org/saref#FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#label> "Feature Of Interest" .
 # 
 # https://w3id.org/saref#Measurement
